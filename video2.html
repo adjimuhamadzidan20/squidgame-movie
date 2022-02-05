@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="adjimuhamadzidan">
+	<title>Squid Game Movie</title>	
+	<link rel="stylesheet" type="text/css" href="CSS/video.css">
+	<link rel="shortcut icon" href="favicon/1181423 (2).jpg" type="image/jpg">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="wrapp">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p>Movie</p>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+		<img src="hamburger icon/menu.png" alt="hamburger icon" id="menu">
+	</div>
+	<!-- mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<!-- container -->
+	<div class="container">
+		<div class="wrapper">
+            <div class="video">
+                <center>
+					<iframe src="https://drive.google.com/file/d/1xnHcRLphhbYDRHNsYbRVuF04Px4fEdEe/preview" allow="autoplay"></iframe>
+                </center>
+            </div>
+            <div class="episode">
+                <h2>Episode 02</h2>
+                <div class="desc">
+                    <p>"Neraka (지옥)"</p>
+                    <div class="release">
+                        <p>release 17 September 2021</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="storyline">
+                <h2>Storyline :</h2>
+                <p>Lebih dari setengah pemain terbunuh di game pertama, dan beberapa yang selamat memohon untuk pergi. 
+                Menurut klausul ketiga perjanjian permainan, jika mayoritas setuju untuk mengakhiri permainan, semua 
+                pemain akan dipulangkan. Para pemain memilih, dan suara penentuan Pemain 001 membuat mereka semua dikirim
+                pulang dengan selamat. Setelah kembali, Gi-hun pergi ke polisi tetapi tidak ada yang percaya ceritanya 
+                kecuali Detektif Hwang Jun-ho, yang saudaranya yang hilang menerima kartu yang sama dengan Gi-hun. Staf 
+                permainan memberi para pemain kesempatan untuk melanjutkan permainan, dan banyak yang kembali, termasuk: Gi-hun, 
+                yang ibunya membutuhkan prosedur medis; Sang-woo, yang akan ditangkap karena penipuan keuangan; Pemain 001, yang 
+                merasa tidak punya apa-apa untuk hidup; Pemain 067, yang ingin menyelundupkan orang tuanya keluar dari Korea Utara; 
+                Pemain 199, yang menyerang majikannya karena menahan upah; dan Pemain 101, seorang gangster dalam pelarian. 
+                Jun-ho diam-diam mengikuti Gi-hun saat dia dijemput oleh staf game.</p>
+            </div>
+        </div>
+	</div>
+	<!-- next episode -->
+    <div class="next-eps">
+        <h2>More Episode</h2>
+        <div class="content">
+            <div class="group1">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 01</p>
+				</div>
+				<a href="video1.html"><button>Watch</button></a>
+			</div>
+			<div class="group2">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 03</p>
+				</div>
+				<a href="video3.html"><button>Watch</button></a>
+			</div>
+			<div class="group3">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 04</p>
+				</div>
+				<a href="video4.html"><button>Watch</button></a>
+			</div>
+            <div class="group4">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 05</p>
+				</div>
+				<a href="video5.html"><button>Watch</button></a>
+			</div>
+        </div>
+    </div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="wrapp-foot">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p id="movie">Movie</p>
+				<div class="title">
+					<p>Powered by Netflix</p>
+				</div>
+			</div>
+			<div class="credit">
+				<div class="text">
+					<p>Created by</p><br>
+					<p>@adjimuhamadzidan</p><br>
+					<p>2021</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<script>
+		// menangkap id pada icon hamburger menu
+		let icon = document.getElementById('menu');
+
+		// menangkap class pada bagian section list navigasi
+		let menu = document.getElementsByClassName('mobile-nav')[0];
+		
+		icon.addEventListener('click', function() {
+			if(menu.style.display == 'none') {
+				menu.style.display = 'block';
+			}
+
+			else {
+				menu.style.display = 'none';
+			}
+		})
+	</script>
+</body>
+</html>

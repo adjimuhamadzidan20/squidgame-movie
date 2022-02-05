@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="adjimuhamadzidan">
+	<title>Squid Game Movie</title>	
+	<link rel="stylesheet" type="text/css" href="CSS/video.css">
+	<link rel="shortcut icon" href="favicon/1181423 (2).jpg" type="image/jpg">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="wrapp">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p>Movie</p>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+			<img src="hamburger icon/menu.png" alt="hamburger icon" id="menu">
+		</div>		
+	</div>
+	<!-- mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<!-- container -->
+	<div class="container">
+		<div class="wrapper">
+            <div class="video">
+                <center>
+					<iframe src="https://drive.google.com/file/d/1dX-a5TYxP_3N3Au9wlsjEBMa0BtYO69-/preview" allow="autoplay"></iframe>
+                </center>
+            </div>
+            <div class="episode">
+                <h2>Episode 03</h2>
+                <div class="desc">
+                    <p>"Pria Berpayung (우산을 쓴 남자)"</p>
+                    <div class="release">
+                        <p>release 17 September 2021</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="storyline">
+                <h2>Storyline :</h2>
+                <p>Jun-ho bersembunyi di antara staf bertopeng saat mereka melakukan perjalanan ke lokasi pulau permainan. 
+                Setelah bangun di asrama, para pemain lebih siap dan mulai membentuk aliansi. Gi-hun, Sang-woo, Pemain 001, 
+                dan Pemain 199 bergabung, dan perhatikan bahwa sebagian besar pemain kembali, termasuk Pemain 212, yang 
+                pertama memohon untuk pergi. Pemain 067 menyelinap ke ventilasi dan mengamati pekerja staf di dapur. 
+                Di game kedua, para pemain harus memilih bentuk yang dicap dari dalgona. Sang-woo mengidentifikasi permainan 
+                dengan cepat, menggunakan informasi dari Pemain 067, tetapi tidak memperingatkan rekan satu timnya dan memilih 
+                bentuk yang paling sederhana untuk dirinya sendiri. Gi-hun menyelesaikan permainan meskipun memiliki bentuk 
+                kesulitan tertinggi, payung, dengan menjilati sarang lebah untuk melelehkannya. Pemain 212 membantu Deok-su 
+                menyelesaikan permainan dengan korek api selundupan. Seorang pemain menyandera anggota staf berperingkat lebih 
+                tinggi sebelum membunuh dirinya sendiri; anggota staf terbunuh, dan Jun-ho mengambil topeng baru.</p>
+            </div>
+        </div>
+	</div>
+	<!-- next episode -->
+    <div class="next-eps">
+        <h2>More Episode</h2>
+        <div class="content">
+            <div class="group1">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 01</p>
+				</div>
+				<a href="video1.html"><button>Watch</button></a>
+			</div>
+			<div class="group2">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 02</p>
+				</div>
+				<a href="video2.html"><button>Watch</button></a>
+			</div>
+			<div class="group3">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 04</p>
+				</div>
+				<a href="video4.html"><button>Watch</button></a>
+			</div>
+            <div class="group4">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 05</p>
+				</div>
+				<a href="video5.html"><button>Watch</button></a>
+			</div>
+        </div>
+    </div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="wrapp-foot">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p id="movie">Movie</p>
+				<div class="title">
+					<p>Powered by Netflix</p>
+				</div>
+			</div>
+			<div class="credit">
+				<div class="text">
+					<p>Created by</p><br>
+					<p>@adjimuhamadzidan</p><br>
+					<p>2021</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<script>
+		// menangkap id pada icon hamburger menu
+		let icon = document.getElementById('menu');
+
+		// menangkap class pada bagian section list navigasi
+		let menu = document.getElementsByClassName('mobile-nav')[0];
+		
+		icon.addEventListener('click', function() {
+			if(menu.style.display == 'none') {
+				menu.style.display = 'block';
+			}
+
+			else {
+				menu.style.display = 'none';
+			}
+		})
+	</script>
+</body>
+</html>

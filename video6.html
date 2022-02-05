@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="adjimuhamadzidan">
+	<title>Squid Game Movie</title>	
+	<link rel="stylesheet" type="text/css" href="CSS/video.css">
+	<link rel="shortcut icon" href="favicon/1181423 (2).jpg" type="image/jpg">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="wrapp">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p>Movie</p>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+			<img src="hamburger icon/menu.png" alt="hamburger icon" id="menu">
+		</div>
+	</div>
+	<!-- mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<!-- container -->
+	<div class="container">
+		<div class="wrapper">
+            <div class="video">
+                <center>
+					<iframe src="https://drive.google.com/file/d/1LSFS4qr_khNfP0BxX5nm9ml0cHL3cqYW/preview" allow="autoplay"></iframe>
+                </center>
+            </div>
+            <div class="episode">
+                <h2>Episode 06</h2>
+                <div class="desc">
+                    <p>"Gganbu (깐부)"</p>
+                    <div class="release">
+                        <p>release 17 September 2021</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="storyline">
+                <h2>Storyline :</h2>
+                <p>Jun-ho diam-diam melihat Front Man menerima telepon, mengatakan bahwa semua akan diselesaikan sebelum 
+                para VIP tiba. Untuk game keempat, pemain disuruh berpasangan. Sang-woo bersama Ali, Gi-hun dengan Pemain 
+                001, dan Sae-byeok dengan Pemain 240. Karena jumlah pemainnya ganjil, Mi-nyeo adalah wanita terakhir yang 
+                berdiri dan dibawa pergi. Dalam permainan, semua orang disuruh memainkan permainan kelereng pilihan mereka 
+                melawan pasangannya, dan siapa pun yang mendapatkan semua kelereng pasangannya dalam waktu 30 menit akan menang. 
+                Sae-byeok dan Pemain 240, Ji-yeong, setuju untuk memainkan permainan sederhana yang semuanya atau tidak sama sekali, 
+                tetapi setelah berbicara tentang kehidupan mereka, Ji-yeong memutuskan Sae-byeok memiliki lebih banyak untuk hidup 
+                dan membiarkannya menang. Sang-woo hampir kalah, tetapi menipu Ali untuk melepaskan kelerengnya dan menang. Gi-hun, 
+                yang akan kalah dalam permainan taruhan dari Pemain 001, membalikkannya dengan menggunakan memori gagal Pemain 001 untuk 
+                melawannya. Pemain 001 mengungkapkan bahwa dia tahu bahwa Gi-hun telah menipunya sepanjang waktu meskipun kondisinya gagal, 
+                tetapi tetap mengizinkan Gi-hun untuk menang. Sebelum dibunuh, Pemain 001 mengatakan bahwa namanya adalah Oh Il-nam.</p>
+            </div>
+        </div>
+	</div>
+	<!-- next episode -->
+    <div class="next-eps">
+        <h2>More Episode</h2>
+        <div class="content">
+            <div class="group1">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 05</p>
+				</div>
+				<a href="video5.html"><button>Watch</button></a>
+			</div>
+			<div class="group2">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 07</p>
+				</div>
+				<a href="video7.html"><button>Watch</button></a>
+			</div>
+			<div class="group3">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 08</p>
+				</div>
+				<a href="video8.html"><button>Watch</button></a>
+			</div>
+            <div class="group4">
+				<div class="thumbnail"></div>
+				<div class="text">
+					<p>Episode 09</p>
+				</div>
+				<a href="video9.html"><button>Watch</button></a>
+			</div>
+        </div>
+    </div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="wrapp-foot">
+			<div class="logo">
+				<img src="logo/Squid_Game.png" alt="squid game" title="Squid Game">
+				<p id="movie">Movie</p>
+				<div class="title">
+					<p>Powered by Netflix</p>
+				</div>
+			</div>
+			<div class="credit">
+				<div class="text">
+					<p>Created by</p><br>
+					<p>@adjimuhamadzidan</p><br>
+					<p>2021</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<script>
+		// menangkap id pada icon hamburger menu
+		let icon = document.getElementById('menu');
+
+		// menangkap class pada bagian section list navigasi
+		let menu = document.getElementsByClassName('mobile-nav')[0];
+		
+		icon.addEventListener('click', function() {
+			if(menu.style.display == 'none') {
+				menu.style.display = 'block';
+			}
+
+			else {
+				menu.style.display = 'none';
+			}
+		})
+	</script>
+</body>
+</html>
