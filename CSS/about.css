@@ -628,7 +628,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 985px) {
 	.the-main-character .content {
 		/* background-color: azure; */
 		flex-wrap: wrap;
