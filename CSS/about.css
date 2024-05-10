@@ -628,6 +628,12 @@ body {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.container {
+		width: 88%;
+	}
+}
+
 @media screen and (max-width: 985px) {
 	.the-main-character .content {
 		/* background-color: azure; */
@@ -644,7 +650,7 @@ body {
 	}
 
 	.other .content {
-		/* background-color: azure; */
+		/* background-color: azsure; */
 		flex-wrap: wrap;
 	}
 

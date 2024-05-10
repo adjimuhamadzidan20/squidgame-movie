@@ -374,10 +374,12 @@ body {
 @media screen and (max-width: 768px) {
 	.container {
 		padding: 20px;
+		width: 88%;
 	}
 
 	.next-eps {
 		padding: 20px;
+		width: 88%;
 	}
 
 	.container .wrapper .video iframe {
